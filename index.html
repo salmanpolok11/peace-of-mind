@@ -1,68 +1,116 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Peace of Mind</title>
   <!-- Cdn link -->
-<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- font Awasome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- Font family -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-<!-- fav icon -->
-<link rel="shortcut icon" href="./img/fav sp - Copy.webp" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font Awasome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- fav icon -->
+  <link rel="shortcut icon" href="./img/fav sp - Copy.webp" type="image/x-icon">
+
+  <style>
+    .font-roboto{
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+  </style>
 
 </head>
-<body>
 
-  <div class="navbar bg-base-100">
+<body class="font-roboto containar mx-auto ">
+
+  <div class="navbar mx-auto bg-black text-white">
     <div class="navbar-start">
       <div class="dropdown">
         <label tabindex="0" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 
+           24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 
+             6h16M4 12h8m-8 6h16" />
+          </svg>
         </label>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a>Item 1</a></li>
-          <li>
-            <a>Parent</a>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </li>
-          <li><a>Item 3</a></li>
+        <ul tabindex="0"
+          class="menu bg-black menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 
+           rounded-box w-52">
+          <li><a>Home</a></li>
+          <li><a>About us</a></li>
+          <li><a>Sermon</a></li>
+          <li><a>Blog</a></li>
         </ul>
       </div>
-      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+      <a class="btn btn-ghost normal-case text-2xl text-white">{Finsweet</a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a>Item 1</a></li>
-        <li tabindex="0">
-          <details>
-            <summary>Parent</summary>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </details>
-        </li>
-        <li><a>Item 3</a></li>
+
+        <li><a>Home</a></li>
+        <li><a>About us</a></li>
+        <li><a>Sermon</a></li>
+        <li><a>Blog</a></li>
       </ul>
     </div>
     <div class="navbar-end">
-      <a class="btn">Button</a>
+      <a class="btn bg-[#FFD2A4;]">Contact us</a>
     </div>
   </div>
 
 
+  <!-- bannar section -->
+
+  <div class="hero lg:min-h-screen" style="background-image: url(./img/bannar.jpg);">
+
+    <div class="hero lg:flex justify-start lg:ml-40 text-left text-neutral-content">
+      <div class="space-y-3 ">
+        <h1 class="lg:mb-5 text-5xl text-white font-bold">Become a part of <br> our
+          community</h1>
+
+        <button class="btn  bg-[#FFD2A4;]">Get Started</button>
+        <p class="text-white lg:pt-5">- Lorem ipsum dolor sit amet, consectetur <br>
+           adipiscing elit, sed do.</p>
+      </div>
+    </div>
+  </div> 
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
